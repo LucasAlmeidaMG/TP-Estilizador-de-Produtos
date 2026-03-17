@@ -1,0 +1,54 @@
+body {
+  background-color: cornflowerblue;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  /* No body foi utilizado o background-color para alterar o fundo da página. Alteração da fonte dos textos dentro do body para Courier New 
+  através da Courier New. Text-aligin center foi utilizado para alinhar o texto dentro da tag no centro da página. */
+}
+.box-nav {
+  background-color: gold;
+  padding: 5px;
+  border-radius: 10px;
+  /* .box-nav é a forma para chamar a box que está atrás do titulo. Foi adicionado padding 5px, que aumenta o espaçamento interno
+  entre o conteúdo e a borda. Foi adicionado border-radius de 10px para arredondar as bordas da box. */
+}
+.box {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%¨;
+  left: 42%;
+  padding: 15px;
+  margin-top: 250px;
+  color: white;
+  /* Essa é a box do elemento principal de digitar. Background color em rgba e os 3 primeiros valores em 0 e o último com 0.6 dá o
+  efeito de transparência para o elemento. Position absolute para poder posicionar o elemento através de top left, right, etc da forma
+  que eu quero.
+  Margin-top é pra criar distancia da margem de cima */
+}
+input {
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+/* Outline é uma borda/linha que fica por cima do botão, colocando none para retira-la.
+E depois border none para retirar a borda do botão. */
+button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 50%;
+  background-color: slateblue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* width para definir o tamanho do elemento na tela.
+Cursor: pointer para colocar identificar que o usuário está com o mouse em cima e trocar de seta para o cursor */
+button:hover {
+  background-color: cornflowerblue;
+  transition: 0.5s;
+  /* Essa é do botão, Hover e background color é para alterar a cor do botão quando passa o cursor em cima
+  e a tag transition 0.5s é basicamente o tempo para ele realizar essa troca. Tempo equilibrado para deixar a transição suave. */
+}

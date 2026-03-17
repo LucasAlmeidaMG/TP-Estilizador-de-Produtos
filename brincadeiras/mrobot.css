@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: chartreuse;
+    font-weight: bolder;
+}
+
+p {
+    text-align: center;
+    color: chartreuse;
+    text-decoration: underline;
+}
+
+img {
+    justify-content: center;
+    display: block;
+    border-radius: 20px;
+}
+.robot{
+    width: 80%;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: escrever 3s steps(12) forwards;
+}
+
+@keyframes escrever {
+  to { width: 100%; }
+}
+
+.piscar {
+  animation: piscar 1s infinite;
+}
+
+@keyframes piscar {
+  50% {
+    opacity: 0;
+  }
+}
+
