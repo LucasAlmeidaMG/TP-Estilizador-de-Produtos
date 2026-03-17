@@ -1,6 +1,6 @@
 💻 Estilizador de Produtos (CSS)
 
-Projeto desenvolvido para a disciplina de front-end com foco em estruturação HTML e estilização com CSS, simulando um card de produto para e-commerce.
+Projeto desenvolvido para a disciplina de Desenvolvimento WEB com foco em estruturação HTML e estilização com CSS, simulando um card de produto para e-commerce.
 
 📌 Sobre o projeto
 
